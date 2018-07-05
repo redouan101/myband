@@ -1,0 +1,37 @@
+body {background-color: coral;}
+
+
+/*HAEDER*/
+
+/*EINDE HEADER*/
+
+/*MENU*/
+#menu {
+    text-align: center;
+}
+/*EINDE MENU*/
+
+/*FOOTER*/
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(25, 50, 68, 0.67);
+    color: #eeeeee;
+    text-align: center;
+}
+/*EINDE FOOTER*/
+
+
+/* NEWS PAGE*/
+#page_np{
+    border-bottom: 5px solid #00000f;
+    text-align: center;
+}
+
+#articles{
+    text-align: center;
+}
+
+
+/*EINDE NEWS PAGE*/
