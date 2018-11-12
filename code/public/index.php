@@ -13,7 +13,7 @@ define('ARTICLES_PER_PAGE',5);
 // TERNARY OPERATOR
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 $pageno = isset($_GET['pageno']) ? $_GET['pageno'] : '1';
-
+$searchterm = isset($_GET['searchterm']) ? '%' .  $_GET['searchterm'] . '%' : '%';
 //CHECKEN OP SUBMIT_LOGIN
 if (isset($_POST['submit_login'])) {
     login_action();
